@@ -1,0 +1,24 @@
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quote {
+    max-width: 80%;
+    text-align: center;
+    border-left: 4px solid #3498db;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .quote-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .quote-author {
+    font-size: 18px;
+    color: #777;
+  }

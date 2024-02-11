@@ -1,0 +1,91 @@
+.successVideos-section {
+   
+    /* background-color: #0c4bf8f7; */
+    background: 
+    url("../img/hero-img.jpg") fixed center center;
+  }
+  
+  .successVideos-video {
+    width: 100%;
+    text-align: center;
+    /* Add styling for the video component here */
+  }
+  
+  .successVideos-content {
+    width: 100%;
+  }
+  
+  .successVideos-content h2 {
+    font-size: 24px;
+  }
+  
+  .successVideos-carousel {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .successVideos-cards-container {
+    display: flex;
+    justify-content: center; 
+    /* Center the child elements horizontally */
+    transition: transform 0.5s ease-in-out;
+  }
+  @media (max-width: 1230px) {
+    .successVideos-cards-container {
+      display: flex;
+      justify-content: left; /* Center the child elements horizontally */
+      transition: transform 0.5s ease-in-out;
+    }
+  }
+  
+  .successVideos-card {
+    background-color: #fff;
+    /* padding: 20px; */
+    padding: 5px;
+padding-bottom: 0px;
+    margin-right: 10px;
+    min-width: 400px;
+    border-radius: 18px;
+  }
+  
+  .successVideos-card p {
+    margin-bottom: 10px;
+  }
+  
+  .successVideos-card p:last-child {
+    font-weight: bold;
+  }
+  
+  /* .podcast-carousel-arrows {
+    display: flex;
+   
+    margin-top: 10px;
+  } */
+  
+  .successVideos-carousel-arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .containerIframe {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+    
+  }
+  
+  .responsive-iframeVideos {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  
